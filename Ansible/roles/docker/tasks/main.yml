@@ -1,6 +1,6 @@
 - name: create image docker
-  docker_image:
-          name: devops
+     docker_image:
+        name: devops
           build:
           path: /var/lib/jenkins/workspace/devops
           pull: no
@@ -8,10 +8,10 @@
           state: present
           force_source: true
  - name: run container docker
-   docker_container:
-           name: myapp_container
+     docker_container:
+        name: myapp_container
            image: devops:latest
            state: started
            recreate: true
-           ports:
+         ports:
             - "4200:80"
