@@ -5,7 +5,7 @@
     password: "dockerhub"
 - name: Tag and push to docker hub
   docker_image:
-    name: devops:latest
+    name: devops
     repository: ghadachebbi/devops
     push: yes
     source: local
