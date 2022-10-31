@@ -1,2 +1,2 @@
         - name: build app
-          shell : ng build --prod
+          shell : npm install && ng build --prod
