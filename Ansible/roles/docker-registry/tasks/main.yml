@@ -6,6 +6,6 @@
 - name: Tag and push to docker hub
   docker_image:
     name: devops
-    repository: ghadachebbi/devops
+    repository: ghadachebbi/livraison
     push: yes
     source: local
