@@ -1,12 +1,12 @@
 ---
 # tasks file for docker
-- name: create image docker 
+- name: create image docker
   docker_image:
    name: devops
    build:
-   path: /var/lib/jenkins/workspace/devops
-   pull: no
-   source: build 
+   build.path: /var/lib/jenkins/workspace/devops
+   build.pull: no
+   source: build
    state: present
    force_source: true
 - name: run container docker
