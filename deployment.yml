@@ -13,5 +13,5 @@ spec:
         app: devops
     spec:
       containers:
-        - name: devops
-          image: devops
+        - name: myapp_container
+          image: devops:latest
