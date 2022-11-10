@@ -7,5 +7,5 @@
     name: devops
     repository: ghadachebbi/devops
     push: yes
-    shell : docker push ghadachebbi/devops:latest
+    shell : push ghadachebbi/devops:latest
     source: local
