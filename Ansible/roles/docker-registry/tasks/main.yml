@@ -2,7 +2,7 @@
   docker_login:
     email: "ghada.chebbi1@esprit.tn"
     username: "ghadachebbi"
-    password: "dckr_pat_RwlZkKYmLSgPk8FPO1Tcv9XPIS4"
+    password: "dckr_pat_1OgAoaBC-Ksu7ETubXGmy3866oo"
 - name: Tag and push to docker hub
   docker_image:
     name: devops
