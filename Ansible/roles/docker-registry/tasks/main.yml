@@ -4,7 +4,7 @@
     password: "dckr_pat_1OgAoaBC-Ksu7ETubXGmy3866oo"
 - name: Tag and push to docker hub
   docker_image:
-    name: devops:latest
-    repository: ghadachebbi/devops
+    name: devops
+    repository: ghadachebbi/devops-lc
     push: yes
     source: local
