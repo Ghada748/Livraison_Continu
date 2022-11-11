@@ -20,3 +20,18 @@ from_address: ghada.chebbi1@esprit.tn
 smtp_username: Ghada Chebbi
 smtp_pass: !vault |
           $ANSIBLE_VAULT;1.1;AES256
+---
+domain: pa.jhbcomputers.com
+
+send_to:
+  - ghada.chebbi1@esprit.tn
+
+prometheus_hosts:
+  - nginx.pa.jhbcomputers.com
+  - jumper.pa.jhbcomputers.com
+  - nfs.pa.jhbcomputers.com
+  - ns1.pa.jhbcomputers.com
+  - emby.pa.jhbcomputers.com
+  - tower.pa.jhbcomputers.com
+  - ns2.pa.jhbcomputers.com
+  - repos.pa.jhbcomputers.com
