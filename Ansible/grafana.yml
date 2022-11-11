@@ -1,10 +1,6 @@
 ---
-- name: Set up grafana
-  hosts: 192.168.2.3
+- hosts: 192.168.2.3
   gather_facts: true
-  user: jenkins
   become: true
- 
-
   roles:
-    - grafana
+   - { role: grafana }
