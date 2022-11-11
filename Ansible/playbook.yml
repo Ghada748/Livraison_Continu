@@ -1,1 +1,12 @@
+- name: install node exporter
+  hosts: 192.168.2.3
+  become: yes
+  roles:
+  - node_exporter
 
+- name: install prometheus/grafana
+  hosts: 192.168.2.3
+  become: yes
+  roles:
+  - prometheus
+  - grafana
