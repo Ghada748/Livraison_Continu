@@ -1,0 +1,11 @@
+---
+- name: Set up grafana
+  hosts: 192.168.2.3
+  gather_facts: true
+  user: jenkins
+  become: true
+  vars_files:
+  - ../group_vars/jhb.yml
+
+  roles:
+    - grafana
