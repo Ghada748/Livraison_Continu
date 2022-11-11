@@ -1,4 +1,2 @@
 ---
-# tasks file for roles/prometheu
-- include: prometheus.yml
-- include: alertmanager.yml
+# tasks file for roles/prometheus
