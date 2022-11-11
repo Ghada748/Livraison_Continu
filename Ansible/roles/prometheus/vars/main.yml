@@ -10,7 +10,10 @@ alertmanager_address: 192.168.2.3
 scrape: 5s
 evaluation: 5s
 
-
+firewalld_ports:
+  - 3000/tcp
+  - 9090/tcp
+  - 9093/tcp
 smtp_server: smtp.gmail.com
 smtp_port: 587
 from_address: ghada.chebbi1@esprit.tn
