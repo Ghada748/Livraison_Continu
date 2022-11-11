@@ -5,8 +5,8 @@
   user: jenkins
   become: true
   vars_files:
-  - ./group_vars/jhb.yml
-  - ./group_vars/prometheus.yml
+  - Livraison_Continu/Ansible/roles/firewalld/group_vars/jhb.yml
+  - Livraison_Continu/Ansible/roles/firewalld/group_vars/prometheus.yml
 
   roles:
     - prometheus
