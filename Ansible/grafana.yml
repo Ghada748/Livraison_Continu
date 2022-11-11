@@ -4,8 +4,7 @@
   gather_facts: true
   user: jenkins
   become: true
-  vars_files:
-    - Livraison_Continu/Ansible/roles/firewalld/group_vars/jhb.yml
+ 
 
   roles:
     - grafana
