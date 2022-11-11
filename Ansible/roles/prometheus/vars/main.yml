@@ -20,7 +20,7 @@ from_address: ghada.chebbi1@esprit.tn
 smtp_username: Ghada Chebbi
 smtp_pass: !vault |
           $ANSIBLE_VAULT;1.1;AES256
----
+
 domain: pa.jhbcomputers.com
 
 send_to:
