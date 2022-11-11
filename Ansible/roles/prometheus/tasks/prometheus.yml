@@ -41,8 +41,8 @@
     group: root
     mode: 0644
   notify: reload daemons
----
-firewalld_ports:
+
+- firewalld_ports:
   - 3000/tcp
   - 9090/tcp
   - 9093/tcp
