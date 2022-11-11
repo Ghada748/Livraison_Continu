@@ -15,3 +15,16 @@ spec:
       containers:
         - name: myapp_container
           image: devops:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp_container
+  namespace: default
+spec:
+  ports:
+    - name: http
+      port: 8081
+  type: LoadBalancer    
+  selector:
+    apps: myapp_container
