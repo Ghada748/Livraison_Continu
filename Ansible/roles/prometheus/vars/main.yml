@@ -16,15 +16,14 @@ firewalld_ports:
   - 9093/tcp
 smtp_server: smtp.gmail.com
 smtp_port: 587
-from_address: ghada.chebbi1@esprit.tn
-smtp_username: Ghada Chebbi
-smtp_pass: !vault |
-          $ANSIBLE_VAULT;1.1;AES256
+from_address: cddevops701@gmail.com
+smtp_username: devops cd
+smtp_pass: devops123
 
 domain: pa.jhbcomputers.com
 
 send_to:
-  - ghada.chebbi1@esprit.tn
+  - cddevops701@gmail.com
 
 prometheus_hosts:
   - nginx.pa.jhbcomputers.com
