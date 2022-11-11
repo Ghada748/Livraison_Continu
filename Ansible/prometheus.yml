@@ -5,8 +5,8 @@
   user: jenkins
   become: true
   vars_files:
-  - /roles/firewalld/group_vars/jhb.yml
-  - /roles/firewalld/group_vars/prometheus.yml
+  - ./group_vars/jhb.yml
+  - ./group_vars/prometheus.yml
 
   roles:
     - prometheus
