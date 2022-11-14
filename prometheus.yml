@@ -8,9 +8,6 @@ scrape_configs:
        - node-exporter:9100
        - pushgateway:9091
        - cadvisor:8080
- - job_name: Docker Job 
-   static_configs:
-     - targets: ['192.168.2.3:9999']   
  - job_name: myapp_container
    scrape_interval: 5s
    static_configs:
