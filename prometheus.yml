@@ -4,14 +4,12 @@ scrape_configs:
    static_configs:
      - targets:
        - prometheus:9090
-       - myapp_container:4200
        - node-exporter:9100
        - pushgateway:9091
        - cadvisor:8080
-  - job_name: Docker Job
-   metrics_path: /metrics
+ - job_name: Docker Job
    static_configs:
-     - targets: ['192.168.1.50:9999']   
+     - targets: ['192.168.2.3:9999']   
  - job_name: myapp_container
    scrape_interval: 5s
    static_configs:
